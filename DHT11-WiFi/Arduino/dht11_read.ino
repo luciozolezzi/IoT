@@ -2,11 +2,11 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Snoop-MainWiFi";
-const char* password =  "Snaup99123";
-const char* mqttServer = "m15.cloudmqtt.com";
-const char* mqttUser = "cbkhxqvy";  //obtenido en cloudMQTT
-const char* mqttPassword = "pmqbjZGcI2-2";
+const char* ssid = "ssid";
+const char* password =  "pass";
+const char* mqttServer = "server.mqtt";
+const char* mqttUser = "usuarioMqtt";  //obtenido en cloudMQTT
+const char* mqttPassword = "passMqtt";
 const int mqttPort=13650;
 const int mqttSSLPort=23650;
 const int mqttTLSPort=33650;
